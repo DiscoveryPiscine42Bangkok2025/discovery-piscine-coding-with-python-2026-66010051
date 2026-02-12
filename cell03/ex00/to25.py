@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+print("Enter number less than 25: ")
+n = int(input())
+
+if n < 25:
+    while n <= 25:
+        print(f"Inside the loop, my variable is {n}")
+        n+=1
+else:
+    print("Error")
+    

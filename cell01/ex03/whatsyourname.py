@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+first_name = input("Hey, What's your first name?: ")
+last_name = input("And your last name?: ")
+
+print("Well, pleased to meet you, " + first_name.strip() + " " + last_name.strip())
